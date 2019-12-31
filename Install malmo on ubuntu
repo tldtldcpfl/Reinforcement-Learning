@@ -1,0 +1,975 @@
+elin@SAMSUNG:~$ wget https://github.com/Microsoft/malmo/releases/download/0.34.0/Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip
+--2019-12-31 12:55:44--  https://github.com/Microsoft/malmo/releases/download/0.34.0/Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip
+Resolving github.com (github.com)... 15.164.81.167
+Connecting to github.com (github.com)|15.164.81.167|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/59032201/f902f318-2df4-11e8-8b46-6ccb324e3ec4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191231%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191231T035547Z&X-Amz-Expires=300&X-Amz-Signature=a0172c6b7e2feb842f1ed540472c1ef0f6b18aa982e931bd2361d071574880d2&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DMalmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip&response-content-type=application%2Foctet-stream [following]
+--2019-12-31 12:55:47--  https://github-production-release-asset-2e65be.s3.amazonaws.com/59032201/f902f318-2df4-11e8-8b46-6ccb324e3ec4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191231%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191231T035547Z&X-Amz-Expires=300&X-Amz-Signature=a0172c6b7e2feb842f1ed540472c1ef0f6b18aa982e931bd2361d071574880d2&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DMalmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.163.139
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.163.139|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16618996 (16M) [application/octet-stream]
+Saving to: ‘Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip’
+
+Malmo-0.34.0-Linux-U 100%[=====================>]  15.85M  3.63MB/s    in 4.5s
+
+2019-12-31 12:55:54 (3.56 MB/s) - ‘Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip’ saved [16618996/16618996]
+elin@SAMSUNG:~$ sudo unzip Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip
+[sudo] password for elin:
+Archive:  Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_4_solved.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_4.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_6.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/to_string_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_5.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/turn_based_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/teleport_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_3.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tabular_q_learning.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/file_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/drawing_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_1.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_8.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/quit_from_reaching_position_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/malmoutils.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/chat_reward.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/decision_tree_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/sample_missions_loader.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_5_solved.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/discrete_3d_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_6.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/robust_frames.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_2.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/agent_visibility_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/chunk_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/MultiMaze.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/team_reward_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/radar_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/multi_agent_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/note_block_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/hit_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/mob_zoo.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/reward_for_discarding_items_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/patchwork_quilt.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/block_type_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/moving_target_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/mouse_steering_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/use_file.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/animation_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/MalmoPython.so
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/two_diggers.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/build_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/mission_quit_command_example.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/reward_for_mission_end_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/run_mission.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/reward_for_items_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/depth_map_runner.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/braitenberg_simulation.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tsp_race.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/render_speed_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/MazeRunner.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/inventory_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/manual_input_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/overclock_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/craft_work.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/default_world_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/tutorial_7.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/human_action.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/cart_test.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/mob_fun.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Python_Examples/Tutorial.pdf
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/LICENSE.txt 
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/HumanAction/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/HumanAction/MalmoNET.dll
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/HumanAction/libMalmoNETNative.so
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/malmo.properties
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/Mission.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/MissionHandlers.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/Types.xsd
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/Mission.xsd
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/Types.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/MissionEnded.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/MissionInit.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/MissionHandlers.xsd
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/MissionEnded.xsd
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Schemas/MissionInit.xsd
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/CREDITS-fml.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/build.gradle
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.debug.core/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.debug.core/.launches/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.debug.core/.launches/Server.launch
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.core.resources/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.core.resources/.root/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.core.resources/.root/0.tree
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.core.resources/.projects/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.core.resources/.projects/MDKExample/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.core.resources/.projects/MDKExample/.location
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.debug.ui/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/eclipse-ORIGINAL/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/gradle/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/gradle/wrapper/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/gradle/wrapper/gradle-wrapper.properties
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/gradle/wrapper/gradle-wrapper.jar
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/MinecraftForge-Credits.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/Paulscode IBXM Library License.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/LICENSE-new.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/gradlew
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/launchClient.sh
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/.gitignore
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/lum.fsh
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/mcmod.info
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/assets/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/assets/MalmoMod/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/assets/MalmoMod/lang/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/assets/MalmoMod/lang/en_US.lang
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/README.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/lum.vsh
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/annotate.fsh
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/version.properties
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/resources/annotate.vsh
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/OverclockingPlugin.java
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/InternalKey.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/ClientState.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/KeyManager.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/ClientStateMachine.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/VideoHook.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Client/MalmoModClient.java
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Schemas/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Schemas/.gitignore
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Schemas/README.txt
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IWorldDecorator.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IRewardProducer.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IAudioProducer.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IWorldGenerator.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IWantToQuit.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IVideoProducer.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/IObservationProducer.java 
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlerInterfaces/ICommandHandler.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MalmoMod.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/EpisodeEventWrapper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/StateEpisode.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MalmoModGuiOptions.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/IState.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/OverclockingClassTransformer.java
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Server/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Server/ServerStateMachine.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Server/ServerState.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Server/MalmoModServer.java
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/MinecraftTypeHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/AnimationDrawingHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/CraftingHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/TCPUtils.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/AddressHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/TCPSocketChannel.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/MapFileHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/UDPSocketHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/TCPInputPoller.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/PositionHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/EnvironmentHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/TimeHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/Discrete.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/BlockDrawingHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/JSONWorldDataHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/EvaluationHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/TCPSocket.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/ScreenHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/AuthenticationHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/SchemaHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/Utils/TextureHelper.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/StateMachine.java
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromNearbyEntitiesImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromDistanceImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/BuildBattleDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/CommandBase.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForDiscardingItemImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/HandlerBase.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForCollectingItemImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/DrawingDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/LuminanceProducerImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/DepthProducerImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForTimeTakenImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardGroup.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/QuitFromComposite.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForCatchingMobImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromGridImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForItemBase.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromFullInventoryImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromHumanImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/TurnBasedCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/CommandForAttackAndUseImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AgentQuitFromReachingPositionImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromHotBarImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromDiscreteCellImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/DiscreteMovementCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/MovingTargetDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AnimationDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/MultidimensionalReward.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForSendingMatchingChatMessageImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/DefaultWorldGeneratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ClassroomDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromServer.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/CommandForHotBarKeysImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/HumanLevelCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/SimpleCraftCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ServerQuitFromTimeUpImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/VideoProducerImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/CommandForKey.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardBase.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ServerQuitWhenAnyAgentFinishesImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromSubgoalPositionListImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForReachingPositionImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AgentQuitFromReachingCommandQuotaImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardFromTeamImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AbsoluteMovementCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ContinuousMovementCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AgentQuitFromTimeUpImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForSendingCommandImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/SnakeDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/WorldFromComposite.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/MazeDecoratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AgentQuitFromCatchingMobImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromRecentCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForStructureCopyingImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForDamagingEntityImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/InventoryCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/QuitFromTimeUpBase.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AgentQuitFromCollectingItemImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromTurnSchedulerImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromSystemImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/CommandForWheeledRobotNavigationImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/MissionBehaviour.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ColourMapProducerImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForTouchingBlockTypeImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/MissionQuitCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromChatImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/FlatWorldGeneratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/RewardForMissionEndImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromRayImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/CommandGroup.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/AgentQuitFromTouchingBlockTypeImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromComposite.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ChatCommandsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/ObservationFromFullStatsImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/src/main/java/com/microsoft/Malmo/MissionHandlers/FileWorldGeneratorImplementation.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/gradlew.bat
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/run/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/run/options.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/run/readme.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/Minecraft_Client.launch
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/README.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/Paulscode SoundSystem CodecIBXM License.txt
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Minecraft/launchClient.bat
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Mod/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Mod/MalmoMod-0.34.0.jar
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Mod/jar_readme.md
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/install_macosx.md
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Torch_Examples/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Torch_Examples/run_mission.lua
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Torch_Examples/libMalmoLua.so
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/install_linux.md
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/App.config
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/MalmoNET.dll
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/CSharpExamples_RunMission.exe
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/Properties/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/Properties/AssemblyInfo.cs
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/Program.cs
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/RunMission.csproj
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/CSharp_Examples/libMalmoNETNative.so
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/install_windows.md
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/readme.html 
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/dir_933bb8d775678a42a1467cf507b82261.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_parameter_set-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/closed.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_client_pool.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/functions_vars.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/tab_h.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/bc_s.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/hierarchy.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/nav_g.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/sync_off.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/folderopen.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/tab_b.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_logger_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/md_doc_install_linux.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/arrowright.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_argument_parser.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/nav_h.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_timestamped_reward-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/tab_a.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_timestamped_unsigned_char_vector_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_world_state_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_argument_parser.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_timestamped_string-members.html
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_3.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/pages_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_7.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_d.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_10.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/search.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_6.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_2.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_d.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_f.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_3.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_15.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_4.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_7.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_6.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_8.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_d.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_11.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_7.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_2.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_f.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_3.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_b.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_3.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_16.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_2.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_f.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_a.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_13.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_10.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_4.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_3.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_3.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_c.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_6.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_7.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_8.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_e.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_d.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_3.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_9.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_a.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_e.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_2.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_b.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_5.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_c.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_4.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_e.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_2.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/pages_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_5.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_6.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_6.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_2.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/searchdata.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/pages_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_b.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_6.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_2.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_2.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_7.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_9.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_f.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_d.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_4.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_8.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_7.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/nomatches.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_14.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/mag_sel.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_4.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_3.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_5.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_e.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_b.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_8.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_3.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_c.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_5.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_5.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_5.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_6.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_10.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_7.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_9.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_2.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_5.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_5.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/close.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_e.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_4.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_f.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/search.css
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_16.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_4.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_a.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_c.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_7.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_4.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_13.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_6.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_c.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_14.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_3.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_a.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/search_r.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_8.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_3.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_d.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/search_l.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_9.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/search_m.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_5.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_9.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_12.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_6.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_2.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_5.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_2.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_b.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_3.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/pages_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_2.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_6.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_7.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_1.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_15.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_c.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enums_4.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_8.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_5.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_5.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/related_0.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_1.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_4.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_9.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_b.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_7.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_10.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_a.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/enumvalues_4.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/classes_4.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/related_0.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/functions_a.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_f.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/variables_e.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_12.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/search/all_11.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_timestamped_video_frame-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/md_doc_install_macosx.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_agent_host-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/functions_eval.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_parameter_set_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_a_l_e_agent_host_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/dir_12fb0c14e4df8775b079a3b37ea42fbb.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_torch_tensor_from_pixels_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/functions.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/open.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_timestamped_unsigned_char_vector-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_mission_spec_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_a_l_e_agent_host-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_mission_exception.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_argument_parser_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/folderclosed.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_world_state-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_a_l_e_agent_host.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/dynsections.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_client_info_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_argument_parser-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/sync_on.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_client_info.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/arrowdown.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_agent_host_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/index.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_logger.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/pages.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1initialiser.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/nav_f.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_timestamped_video_frame.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_mission_spec-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_agent_host.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/functions_enum.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/jquery.js
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/splitbar.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_mission_record_spec.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1initialiser-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_mission_exception-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_client_info-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/doc.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_find_schema_file_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_mission_spec.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/md_doc_install_windows.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classes.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/doxygen.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/doxygen.css
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_a_l_e_agent_host.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_logger-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_world_state.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_timestamped_unsigned_char_vector.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_init_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/functions_func.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_mission_exception.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_timestamped_reward_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/files.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_log_section.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/tabs.css
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_logger_lifetime_tracker.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_timestamped_video_frame_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_timestamped_string_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_agent_host.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_timestamped_reward.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_mission_record_spec_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/functions_rela.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/tab_s.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_log_section-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_client_pool-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_mission_record_spec-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/structmalmo_1_1_timestamped_string.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_logger_lifetime_tracker-members.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/_client_pool_8h_source.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/annotated.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/bdwn.png
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Documentation/classmalmo_1_1_parameter_set.html
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/changelog.txt
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/scripts/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/scripts/malmo_build.sh
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/scripts/tools/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/scripts/tools/readme.md
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/scripts/tools/frame_rate_plotter.py
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/scripts/tools/depth_map_parser.py
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/CMakeLists.txt
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/lib/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/lib/libMalmo.a
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/run_mission
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/cmake/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/cmake/FindXsd.cmake
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/run_mission.cpp
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/VideoServer.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionRecord.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/Mission.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/PosixFrameWriter.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionSpec.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TCPServer.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionHandlers.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TimestampedUnsignedCharVector.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/AgentHost.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionEnded.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TimestampedReward.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/ClientInfo.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TimestampedString.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/ParameterSet.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TorchTensorFromPixels.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/BmpFrameWriter.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/WorldState.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TimestampedVideoFrame.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionRecordSpec.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/Init.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/Types.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionInitSpec.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/VideoFrameWriter.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/StringServer.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/ClientConnection.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/ArgumentParser.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/Tarball.hpp
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TCPClient.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/Logger.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/ClientPool.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/MissionInit.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/TCPConnection.h
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Cpp_Examples/include/FindSchemaFile.h
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Lua_Examples/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Lua_Examples/to_string_test.lua
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Lua_Examples/run_mission.lua
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Lua_Examples/libMalmoLua.so
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/eating_1.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/default_world_1.xml
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/attic.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/complexity_usage.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/simpleRoomMaze.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/obstacles.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/medium.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/vertical.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/hard.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/classroom/basic.xml
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/mazes/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/mazes/maze_1.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/mazes/maze_2.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/tricky_arena_1.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/readme.md
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/MalmoMissionTable_CurrentTasks_2016_06_14.pdf
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/cliff_walking_1.xml
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Sample_missions/default_flat_1.xml
+   creating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Java_Examples/
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Java_Examples/JavaExamples_run_mission.java
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Java_Examples/libMalmoJava.so
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Java_Examples/MalmoJavaJar.jar
+  inflating: Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5/Java_Examples/JavaExamples_run_mission.jar
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo mv Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5 Malmo
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo rm -f Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$  sudo apt-get install libboost-all-dev build-essential python3-dev \
+>
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.config/
+.keras/
+.local/
+.profile
+.sudo_as_admin_successful
+.viminfo
+.virtualenvs/
+.wget-hsts
+AlphaPose/
+FFmpeg/
+Malmo/
+Release.key
+access
+build/
+class-descriptions-boxable.csv
+darknet/
+environments/
+face_recognition_models-0.3.0-py2.py3-none-any.whl
+fastText-0.9.1/
+getModles/
+gym/
+keras/
+nest-simulator-x.y.z-build/
+opencv/
+opencv.zip
+opencv_contrib/
+opencv_contrib.zip
+openpose/
+poseval/
+probability/
+project/
+py-faster-rcnn/
+tf-demo/
+train-annotations-bbox.csv
+v0.9.1.zip
+wget-log
+yolov3.weights
+yolov3.weights.1
+z-artist-names.csv
+>   libpython3.5 openjdk-8-jdk libxerces-c3.1 \
+>
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.config/
+.keras/
+.local/
+.profile
+.sudo_as_admin_successful
+.viminfo
+.virtualenvs/
+.wget-hsts
+AlphaPose/
+FFmpeg/
+Malmo/
+Release.key
+access
+build/
+class-descriptions-boxable.csv
+darknet/
+environments/
+face_recognition_models-0.3.0-py2.py3-none-any.whl
+fastText-0.9.1/
+getModles/
+gym/
+keras/
+nest-simulator-x.y.z-build/
+opencv/
+opencv.zip
+opencv_contrib/
+opencv_contrib.zip
+openpose/
+poseval/
+probability/
+project/
+py-faster-rcnn/
+tf-demo/
+train-annotations-bbox.csv
+v0.9.1.zip
+wget-log
+yolov3.weights
+yolov3.weights.1
+z-artist-names.csv
+>   python3-tk python3-pil.imagetk libgl1-mesa-dev \
+>
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.config/
+.keras/
+.local/
+.profile
+.sudo_as_admin_successful
+.viminfo
+.virtualenvs/
+.wget-hsts
+AlphaPose/
+FFmpeg/
+Malmo/
+Release.key
+access
+build/
+class-descriptions-boxable.csv
+darknet/
+environments/
+face_recognition_models-0.3.0-py2.py3-none-any.whl
+fastText-0.9.1/
+getModles/
+gym/
+keras/
+nest-simulator-x.y.z-build/
+opencv/
+opencv.zip
+opencv_contrib/
+opencv_contrib.zip
+openpose/
+poseval/
+probability/
+project/
+py-faster-rcnn/
+tf-demo/
+train-annotations-bbox.csv
+v0.9.1.zip
+wget-log
+yolov3.weights
+yolov3.weights.1
+z-artist-names.csv
+>   ffmpeg xsdcxx -y
+E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem.
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo dpkg --congifure -a
+dpkg: error: unknown option --congifure
+
+Type dpkg --help for help about installing and deinstalling packages [*];
+Use 'apt' or 'aptitude' for user-friendly package management;
+Type dpkg -Dhelp for a list of dpkg debug flag values;
+Type dpkg --force-help for a list of forcing options;
+Type dpkg-deb --help for help about manipulating *.deb files;
+
+Options marked [*] produce a lot of output - pipe it through 'less' or 'more' !
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo rm /var/lib/dpgk/lock
+
+^Z^Z
+[5]+  Stopped                 sudo rm /var/lib/dpgk/lock
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo rm /var/lib/dpkg/lock
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo dpkg --congifure -a
+dpkg: error: unknown option --congifure
+
+Type dpkg --help for help about installing and deinstalling packages [*];
+Use 'apt' or 'aptitude' for user-friendly package management;
+Type dpkg -Dhelp for a list of dpkg debug flag values;
+Type dpkg --force-help for a list of forcing options;
+Type dpkg-deb --help for help about manipulating *.deb files;
+
+Options marked [*] produce a lot of output - pipe it through 'less' or 'more' !
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo rm -f Malmo-0.34.0-Linux-Ubuntu-16.04-64bit_withBoost_Python3.5.zip
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ export MALMO_XSD_PATH=$HOME/Malmo/Schemas #(or path/to/Malmo/Schemas)
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$  source ~/.bashrc
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo pip3 install pillow future
+WARNING: The directory '/home/elin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/home/elin/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already satisfied: pillow in /usr/local/lib/python3.6/dist-packages (6.2.1)
+Collecting future
+  Downloading https://files.pythonhosted.org/packages/45/0b/38b06fd9b92dc2b68d58b75f900e97884c45bedd2ff83203d933cf5851c9/future-0.18.2.tar.gz (829kB)
+     |████████████████████████████████| 829kB 79kB/s
+Building wheels for collected packages: future
+  Building wheel for future (setup.py) ... done
+  Created wheel for future: filename=future-0.18.2-cp36-none-any.whl size=491057 sha256=1dd870764edb4f06c2f5a55fc3772d30beace36f33b7521038832e7ed5182f6b
+  Stored in directory: /home/elin/.cache/pip/wheels/8b/99/a0/81daf51dcd359a9377b110a8a886b3895921802d2fc1b2397e
+Successfully built future
+Installing collected packages: future
+Successfully installed future-0.18.2
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ ./launchClient.sh
+-bash: ./launchClient.sh: No such file or directory
+elin@SAMSUNG:~$ sudo apt-get install xvfb xpra
+E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem.
+elin@SAMSUNG:~$ sudo dpkg --configure -a
+dpkg: error: error installing new file '/var/lib/dpkg/status': No such file or directory
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo apt install dpkg
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+dpkg is already the newest version (1.19.0.5ubuntu2.3).
+The following packages were automatically installed and are no longer required:
+  grass-core grass-doc libboost-serialization1.65.1 libboost-system1.65.1
+  libboost-thread1.65.1 libcgal13 libfcgi-bin libfcgi0ldbl libgeos-3.6.2
+  libgmpxx4ldbl libjs-leaflet libjs-sphinxdoc liblas-c3 liblas3 liblwgeom-2.4-0
+  liblwgeom-2.5-0 liblwgeom-dev libpdal-base7 libpdal-plugin-faux
+  libpdal-plugin-greyhound libpdal-plugin-icebridge libpdal-plugin-pgpointcloud
+  libpdal-plugin-python libpdal-plugin-sqlite libpdal-plugins libpdal-util7
+  libproj12 libqca-qt5-2 libqca-qt5-2-plugins libqca2 libqca2-plugins
+  libqgis-core2.18.17 libqgis-core3.4.11 libqgis-customwidgets libqgis-gui2.18.17
+  libqgis-gui3.4.11 libqgis-native3.4.11 libqgis-networkanalysis2.18.17
+  libqgisgrass7-2.18.17 libqgisgrass7-3.4.11 libqgispython2.18.17 libqjson0
+  libqscintilla2-qt4-13 libqscintilla2-qt4-l10n libqscintilla2-qt5-13
+  libqscintilla2-qt5-l10n libqt5concurrent5 libqt5designer5
+  libqt5designercomponents5 libqt5help5 libqt5keychain1 libqt5opengl5
+  libqt5positioning5 libqt5printsupport5 libqt5qml5 libqt5quick5
+  libqt5quickwidgets5 libqt5sensors5 libqt5serialport5 libqt5sql5
+  libqt5sql5-sqlite libqt5webchannel5 libqt5webkit5 libqt5xml5 libqwt-qt5-6
+  libqwt6abi1 libsfcgal1 libspatialindex4v5 libsqlite3-mod-spatialite libzip4
+  python-certifi python-configparser python-egenix-mxdatetime
+  python-egenix-mxtools python-future python-httplib2 python-jinja2
+  python-markupsafe python-openssl python-owslib python-psycopg2 python-pygments
+  python-pyproj python-pyspatialite python-qgis-common python-qscintilla2
+  python-qt4-sql python-requests python-shapely python-urllib3 python-yaml
+  python3-numpy qgis-common qgis-plugin-grass-common qgis-provider-grass
+  qgis-providers qgis-providers-common qt4-designer qt5-assistant
+  qttools5-dev-tools
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+54 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Setting up libproj-dev:amd64 (5.2.0-1~bionic0) ...
+Setting up wslu (2.3.2-0ubuntu2~18.04.3) ...
+Setting up python3-numpy (1:1.13.3-2ubuntu1) ...
+Setting up open-vm-tools (2:11.0.1-2ubuntu0.18.04.2) ...
+Installing new version of config file /etc/vmware-tools/vm-support ...
+invoke-rc.d: could not determine current runlevel
+Setting up openjdk-11-jre-headless:amd64 (11.0.5+10-0ubuntu1.1~18.04) ...
+Installing new version of config file /etc/java-11-openjdk/jfr/default.jfc ...
+Installing new version of config file /etc/java-11-openjdk/jfr/profile.jfc ...
+Installing new version of config file /etc/java-11-openjdk/security/java.security ...
+Setting up libboost-serialization1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+Setting up libqt5help5:amd64 (5.9.5-0ubuntu1) ...
+Setting up qgis-plugin-grass-common (3.4.11+dfsg-2~bionic1) ...
+Setting up libgeos-3.7.1:amd64 (3.7.1-1~bionic0) ...
+Setting up libpdal-util7 (1.8.0+ds-1~bionic2) ...
+Setting up grass-doc (7.8.0-1~bionic1) ...
+Setting up proj-bin (5.2.0-1~bionic0) ...
+Setting up libgeotiff2:amd64 (1.4.2-2build1+bionic0) ...
+Setting up python3-software-properties (0.96.24.32.12) ...
+Setting up libcgal13:amd64 (4.11-2build1) ...
+Setting up libgmpxx4ldbl:amd64 (2:6.1.2+dfsg-2) ...
+Setting up libpython2.7-minimal:amd64 (2.7.17-1~18.04) ...
+Setting up libqt5designer5:amd64 (5.9.5-0ubuntu1) ...
+Setting up libpython2.7-stdlib:amd64 (2.7.17-1~18.04) ...
+Setting up python2.7-minimal (2.7.17-1~18.04) ...
+Setting up cloud-init (19.3-41-gc4735dd3-0ubuntu1~18.04.1) ...
+Setting up qt5-assistant (5.9.5-0ubuntu1) ...
+Setting up proj-data (5.2.0-1~bionic0) ...
+Setting up openjdk-11-jre:amd64 (11.0.5+10-0ubuntu1.1~18.04) ...
+Setting up software-properties-common (0.96.24.32.12) ...
+Setting up libgeotiff-dev:amd64 (1.4.2-2build1+bionic0) ...
+Setting up libqt5designercomponents5:amd64 (5.9.5-0ubuntu1) ...
+Setting up python2.7 (2.7.17-1~18.04) ...
+Setting up libgeos-c1v5:amd64 (3.7.1-1~bionic0) ...
+Setting up libsfcgal1 (1.3.6-1~bionic2) ...
+Setting up qttools5-dev-tools (5.9.5-0ubuntu1) ...
+Setting up python-pyproj (1.9.5.1-4~bionic0) ...
+Setting up libpython2.7:amd64 (2.7.17-1~18.04) ...
+Setting up python-owslib (0.18.0-1~bionic0) ...
+Setting up libspatialite7:amd64 (4.3.0a-5build1+bionic1) ...
+Setting up libpython2.7-dev:amd64 (2.7.17-1~18.04) ...
+Setting up libspatialite-dev:amd64 (4.3.0a-5build1+bionic1) ...
+Setting up python2.7-dev (2.7.17-1~18.04) ...
+Setting up liblwgeom-2.5-0 (2.5.2+dfsg-1~bionic1) ...
+Setting up python-shapely (1.6.4-2~bionic1) ...
+Setting up liblwgeom-dev (2.5.2+dfsg-1~bionic1) ...
+Setting up libpdal-base7 (1.8.0+ds-1~bionic2) ...
+Setting up libgeos-dev (3.7.1-1~bionic0) ...
+Setting up python-pyspatialite (3.0.1-13~bionic1) ...
+Setting up libsqlite3-mod-spatialite:amd64 (4.3.0a-5build1+bionic1) ...
+Setting up libqgis-customwidgets (3.4.11+dfsg-2~bionic1) ...
+Setting up libpdal-plugin-python (1.8.0+ds-1~bionic2) ...
+Setting up libpdal-plugin-greyhound (1.8.0+ds-1~bionic2) ...
+Setting up grass-core (7.8.0-1~bionic1) ...
+Setting up libpdal-plugin-icebridge (1.8.0+ds-1~bionic2) ...
+Setting up libpdal-plugin-pgpointcloud (1.8.0+ds-1~bionic2) ...
+Setting up libpdal-plugin-faux (1.8.0+ds-1~bionic2) ...
+Setting up libpdal-plugin-sqlite (1.8.0+ds-1~bionic2) ...
+Setting up libpdal-plugins (1.8.0+ds-1~bionic2) ...
+Processing triggers for systemd (237-3ubuntu10.33) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+Processing triggers for dbus (1.12.2-1ubuntu1.1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for rsyslog (8.32.0-1ubuntu4) ...
+invoke-rc.d: could not determine current runlevel
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+elin@SAMSUNG:~$
