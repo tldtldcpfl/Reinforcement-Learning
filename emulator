@@ -1,0 +1,255 @@
+elin@SAMSUNG:~$ sudo apt-get install fceux
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  grass-core grass-doc libboost-serialization1.65.1 libboost-system1.65.1
+  libboost-thread1.65.1 libcgal13 libfcgi-bin libfcgi0ldbl libgeos-3.6.2
+  libgmpxx4ldbl libjs-leaflet libjs-sphinxdoc liblas-c3 liblas3 liblwgeom-2.4-0
+  liblwgeom-2.5-0 liblwgeom-dev libpdal-base7 libpdal-plugin-faux
+  libpdal-plugin-greyhound libpdal-plugin-icebridge libpdal-plugin-pgpointcloud
+  libpdal-plugin-python libpdal-plugin-sqlite libpdal-plugins libpdal-util7
+  libproj12 libqca-qt5-2 libqca-qt5-2-plugins libqca2 libqca2-plugins
+  libqgis-core2.18.17 libqgis-core3.4.11 libqgis-customwidgets libqgis-gui2.18.17
+  libqgis-gui3.4.11 libqgis-native3.4.11 libqgis-networkanalysis2.18.17
+  libqgisgrass7-2.18.17 libqgisgrass7-3.4.11 libqgispython2.18.17 libqjson0
+  libqscintilla2-qt4-13 libqscintilla2-qt4-l10n libqscintilla2-qt5-13
+  libqscintilla2-qt5-l10n libqt5concurrent5 libqt5designer5
+  libqt5designercomponents5 libqt5help5 libqt5keychain1 libqt5opengl5
+  libqt5positioning5 libqt5printsupport5 libqt5qml5 libqt5quick5
+  libqt5quickwidgets5 libqt5sensors5 libqt5serialport5 libqt5sql5
+  libqt5sql5-sqlite libqt5webchannel5 libqt5webkit5 libqt5xml5 libqwt-qt5-6
+  libqwt6abi1 libsfcgal1 libspatialindex4v5 libsqlite3-mod-spatialite libzip4
+  python-certifi python-configparser python-egenix-mxdatetime
+  python-egenix-mxtools python-future python-httplib2 python-jinja2
+  python-markupsafe python-openssl python-owslib python-psycopg2 python-pygments
+  python-pyproj python-pyspatialite python-qgis-common python-qscintilla2
+  python-qt4-sql python-requests python-shapely python-urllib3 python-yaml
+  python3-numpy qgis-common qgis-plugin-grass-common qgis-provider-grass
+  qgis-providers qgis-providers-common qt4-designer qt5-assistant
+  qttools5-dev-tools
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  liblua5.1-0 libsdl1.2debian
+Suggested packages:
+  efp
+The following NEW packages will be installed:
+  fceux liblua5.1-0 libsdl1.2debian
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 879 kB of archives.
+After this operation, 2799 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu bionic/universe amd64 liblua5.1-0 amd64 5.1.5-8.1build2 [100 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsdl1.2debian amd64 1.2.15+dfsg2-0.1ubuntu0.1 [175 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic/universe amd64 fceux amd64 2.2.2+dfsg0-1build1 [604 kB]
+Fetched 879 kB in 10s (88.7 kB/s)
+Selecting previously unselected package liblua5.1-0:amd64.
+(Reading database ... 111580 files and directories currently installed.)
+Preparing to unpack .../liblua5.1-0_5.1.5-8.1build2_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8.1build2) ...
+Selecting previously unselected package libsdl1.2debian:amd64.
+Preparing to unpack .../libsdl1.2debian_1.2.15+dfsg2-0.1ubuntu0.1_amd64.deb ...
+Unpacking libsdl1.2debian:amd64 (1.2.15+dfsg2-0.1ubuntu0.1) ...
+Selecting previously unselected package fceux.
+Preparing to unpack .../fceux_2.2.2+dfsg0-1build1_amd64.deb ...
+Unpacking fceux (2.2.2+dfsg0-1build1) ...
+Setting up libsdl1.2debian:amd64 (1.2.15+dfsg2-0.1ubuntu0.1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8.1build2) ...
+Setting up fceux (2.2.2+dfsg0-1build1) ...
+update-alternatives: using /usr/games/fceux to provide /usr/bin/nes (nes) in auto mode
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo pip3 install gym
+WARNING: The directory '/home/elin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/home/elin/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting gym
+  Downloading https://files.pythonhosted.org/packages/1d/85/a7a462d7796f097027d60f9a62b4e17a0a94dcf12ac2a9f9a913333b11a6/gym-0.15.4.tar.gz (1.6MB)
+     |████████████████████████████████| 1.6MB 495kB/s
+Requirement already satisfied: scipy in ./.local/lib/python3.6/site-packages (from gym) (1.3.2)
+Requirement already satisfied: numpy>=1.10.4 in ./.local/lib/python3.6/site-packages (from gym) (1.17.4)
+Requirement already satisfied: six in ./.local/lib/python3.6/site-packages (from gym) (1.13.0)
+Collecting pyglet<=1.3.2,>=1.2.0
+  Downloading https://files.pythonhosted.org/packages/1c/fc/dad5eaaab68f0c21e2f906a94ddb98175662cc5a654eee404d59554ce0fa/pyglet-1.3.2-py2.py3-none-any.whl (1.0MB)
+     |████████████████████████████████| 1.0MB 1.2MB/s
+Collecting cloudpickle~=1.2.0
+  Downloading https://files.pythonhosted.org/packages/c1/49/334e279caa3231255725c8e860fa93e72083567625573421db8875846c14/cloudpickle-1.2.2-py2.py3-none-any.whl
+Requirement already satisfied: opencv-python in ./.local/lib/python3.6/site-packages (from gym) (4.1.2.30)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from pyglet<=1.3.2,>=1.2.0->gym) (0.18.2)
+Building wheels for collected packages: gym
+  Building wheel for gym (setup.py) ... done
+  Created wheel for gym: filename=gym-0.15.4-cp36-none-any.whl size=1648485 sha256=919b1d7160262e25c057630263eaec58a673aa8ff5efef5e37a4c45b6a000683
+  Stored in directory: /home/elin/.cache/pip/wheels/e9/26/9b/8a1a6599a91077a938ac4348cc3d3ac84bfab0dbfddeb4c6e7
+Successfully built gym
+Installing collected packages: pyglet, cloudpickle, gym
+Successfully installed cloudpickle-1.2.2 gym-0.15.4 pyglet-1.3.2
+elin@SAMSUNG:~$ pip3 install opencv-python
+Requirement already satisfied: opencv-python in ./.local/lib/python3.6/site-packages (4.1.2.30)
+Requirement already satisfied: numpy>=1.11.3 in ./.local/lib/python3.6/site-packages (from opencv-python) (1.17.4)
+elin@SAMSUNG:~$ pip3 install cloudpickle
+
+^Z
+[7]+  Stopped                 pip3 install cloudpickle
+elin@SAMSUNG:~$ sudo pip3 install cloudpickle
+WARNING: The directory '/home/elin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/home/elin/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already satisfied: cloudpickle in /usr/local/lib/python3.6/dist-packages (1.2.2)
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ # Download source code
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+elin@SAMSUNG:~$ sudo git clone https://github.com/openai/baselines.git
+Cloning into 'baselines'...
+remote: Enumerating objects: 3612, done.
+remote: Total 3612 (delta 0), reused 0 (delta 0), pack-reused 3612
+Receiving objects: 100% (3612/3612), 6.46 MiB | 711.00 KiB/s, done.
+Resolving deltas: 100% (2417/2417), done.
+Checking out files: 100% (199/199), done.
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$
+elin@SAMSUNG:~$ cd baselines/
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$ sudo pip3 install -e .
+WARNING: The directory '/home/elin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/home/elin/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Obtaining file:///home/elin/baselines
+
+Requirement already satisfied: gym<0.16.0,>=0.15.4 in /usr/local/lib/python3.6/dist-packages (from baselines==0.1.6) (0.15.4)
+Requirement already satisfied: scipy in /home/elin/.local/lib/python3.6/site-packages (from baselines==0.1.6) (1.3.2)
+Collecting tqdm
+  Downloading https://files.pythonhosted.org/packages/8c/c3/d049cf3fb31094ee045ec1ee29fffac218c91e82c8838c49ab4c3e52627b/tqdm-4.41.0-py2.py3-none-any.whl (56kB)
+     |████████████████████████████████| 61kB 70kB/s
+Requirement already satisfied: joblib in /usr/local/lib/python3.6/dist-packages (from baselines==0.1.6) (0.14.1)
+Requirement already satisfied: cloudpickle in /usr/local/lib/python3.6/dist-packages (from baselines==0.1.6) (1.2.2)
+Requirement already satisfied: click in /usr/lib/python3/dist-packages (from baselines==0.1.6) (6.7)
+Requirement already satisfied: opencv-python in /home/elin/.local/lib/python3.6/site-packages (from baselines==0.1.6) (4.1.2.30)
+Requirement already satisfied: pyglet<=1.3.2,>=1.2.0 in /usr/local/lib/python3.6/dist-packages (from gym<0.16.0,>=0.15.4->baselines==0.1.6) (1.3.2)
+Requirement already satisfied: six in /home/elin/.local/lib/python3.6/site-packages (from gym<0.16.0,>=0.15.4->baselines==0.1.6) (1.13.0)
+Requirement already satisfied: numpy>=1.10.4 in /home/elin/.local/lib/python3.6/site-packages (from gym<0.16.0,>=0.15.4->baselines==0.1.6) (1.17.4)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from pyglet<=1.3.2,>=1.2.0->gym<0.16.0,>=0.15.4->baselines==0.1.6) (0.18.2)
+Installing collected packages: tqdm, baselines
+  Running setup.py develop for baselines
+Successfully installed baselines tqdm-4.41.0
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$ # install gflags source code
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$ sudo git clone https://github.com/google/python-gflags
+Cloning into 'python-gflags'...
+remote: Enumerating objects: 624, done.
+remote: Total 624 (delta 0), reused 0 (delta 0), pack-reused 624
+Receiving objects: 100% (624/624), 368.80 KiB | 899.00 KiB/s, done.
+Resolving deltas: 100% (432/432), done.
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$
+elin@SAMSUNG:~/baselines$ cd python-gflags/
+elin@SAMSUNG:~/baselines/python-gflags$ sudo python3 setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/gflags
+copying gflags/__init__.py -> build/lib/gflags
+copying gflags/_helpers.py -> build/lib/gflags
+copying gflags/_helpers_test.py -> build/lib/gflags
+copying gflags/argument_parser.py -> build/lib/gflags
+copying gflags/exceptions.py -> build/lib/gflags
+copying gflags/flag.py -> build/lib/gflags
+copying gflags/flags_formatting_test.py -> build/lib/gflags
+copying gflags/flags_unicode_literals_test.py -> build/lib/gflags
+copying gflags/flagvalues.py -> build/lib/gflags
+copying gflags/validators.py -> build/lib/gflags
+creating build/lib/gflags/third_party
+copying gflags/third_party/__init__.py -> build/lib/gflags/third_party
+creating build/lib/gflags/third_party/pep257
+copying gflags/third_party/pep257/__init__.py -> build/lib/gflags/third_party/pep257
+running install_lib
+creating /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/__init__.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/_helpers.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/_helpers_test.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/argument_parser.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/exceptions.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/flag.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/flags_formatting_test.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/flags_unicode_literals_test.py -> /usr/local/lib/python3.6/dist-packages/gflags
+copying build/lib/gflags/flagvalues.py -> /usr/local/lib/python3.6/dist-packages/gflags
+creating /usr/local/lib/python3.6/dist-packages/gflags/third_party
+copying build/lib/gflags/third_party/__init__.py -> /usr/local/lib/python3.6/dist-packages/gflags/third_party
+creating /usr/local/lib/python3.6/dist-packages/gflags/third_party/pep257
+copying build/lib/gflags/third_party/pep257/__init__.py -> /usr/local/lib/python3.6/dist-packages/gflags/third_party/pep257
+copying build/lib/gflags/validators.py -> /usr/local/lib/python3.6/dist-packages/gflags
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/__init__.py to __init__.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/_helpers.py to _helpers.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/_helpers_test.py to _helpers_test.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/argument_parser.py to argument_parser.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/exceptions.py to exceptions.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/flag.py to flag.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/flags_formatting_test.py to flags_formatting_test.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/flags_unicode_literals_test.py to flags_unicode_literals_test.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/flagvalues.py to flagvalues.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/third_party/__init__.py to __init__.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/third_party/pep257/__init__.py to __init__.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/gflags/validators.py to validators.cpython-36.pyc
+running install_data
+copying gflags2man.py -> /usr/local/bin
+running install_egg_info
+Writing /usr/local/lib/python3.6/dist-packages/python_gflags-3.1.2.egg-info
+elin@SAMSUNG:~/baselines/python-gflags$
+elin@SAMSUNG:~/baselines/python-gflags$
+elin@SAMSUNG:~/baselines/python-gflags$ # install gym-super-mario package
+elin@SAMSUNG:~/baselines/python-gflags$
+elin@SAMSUNG:~/baselines/python-gflags$
+elin@SAMSUNG:~/baselines/python-gflags$ sudo git clone https://github.com/chris-chris/gym-super-mario
+Cloning into 'gym-super-mario'...
+remote: Enumerating objects: 140, done.
+remote: Total 140 (delta 0), reused 0 (delta 0), pack-reused 140
+Receiving objects: 100% (140/140), 76.25 KiB | 361.00 KiB/s, done.
+Resolving deltas: 100% (69/69), done.
+Checking out files: 100% (14/14), done.
+elin@SAMSUNG:~/baselines/python-gflags$ cd gym-super-mario
+elin@SAMSUNG:~/baselines/python-gflags/gym-super-mario$  python3 setup.py install
+running install
+error: can't create or remove files in install directory
+
+The following error occurred while trying to add or remove files in the
+installation directory:
+
+    [Errno 13] Permission denied: '/usr/local/lib/python3.6/dist-packages/test-easy-install-5229.write-test'
+
+The installation directory you specified (via --install-dir, --prefix, or
+the distutils default setting) was:
+
+    /usr/local/lib/python3.6/dist-packages/
+
+Perhaps your account does not have write access to this directory?  If the
+installation directory is a system-owned directory, you may need to sign in
+as the administrator or "root" account.  If you do not have administrative
+access to this machine, you may wish to choose a different installation
+directory, preferably one that is listed in your PYTHONPATH environment
+variable.
+
+For information on other options, you may wish to consult the
+documentation at:
+
+  https://setuptools.readthedocs.io/en/latest/easy_install.html
+
+Please make the appropriate changes for your system and try again.
+
+elin@SAMSUNG:~/baselines/python-gflags/gym-super-mario$
